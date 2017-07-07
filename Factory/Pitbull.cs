@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    class Program
+    class Pitbull:Perro
     {
-        static void Main(string[] args)
-        {
-            Perro per = Factoria.CriarDog("Grande");
-        }
     }
 }

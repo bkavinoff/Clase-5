@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caniche.cs" />
+    <Compile Include="Factoria.cs" />
+    <Compile Include="IPerreable.cs" />
+    <Compile Include="Labrador.cs" />
+    <Compile Include="Perro.cs" />
+    <Compile Include="Pitbull.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    class Program
+    interface IPerreable
     {
-        static void Main(string[] args)
-        {
-            Perro per = Factoria.CriarDog("Grande");
-        }
+        Perro CriarDog(string tamano);
     }
 }
