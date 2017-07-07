@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Caniche.cs" />
     <Compile Include="IPerreable.cs" />
+    <Compile Include="Labrador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
