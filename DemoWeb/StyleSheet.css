@@ -1,0 +1,14 @@
+﻿body {
+    background-color: aquamarine;
+    font-family:'Comic Sans MS';
+}
+
+#DivEstilizado {
+    background-color:#d45a5a;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+
+.Clase {
+    border:solid;
+}

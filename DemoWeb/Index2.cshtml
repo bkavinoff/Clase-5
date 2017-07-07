@@ -1,0 +1,37 @@
+﻿@{
+    Page.Title = "Title goes here";
+    Layout = "Layout.cshtml";
+
+    Persona per1=new Persona ("Mati");
+    Persona per2 = new Persona("Mario");
+    Persona per3 = new Persona("Luigi");
+    Persona per4 = new Persona("Pitch");
+
+    //utilizo la propiedad como un set, LA PROPIEDAD ES UN SET Y UN GET AL MISMO TIEMPO.
+
+    List < Persona > lista= new List<Persona>();
+    lista.Add(per1);
+    lista.Add(per2);
+    lista.Add(per3);
+    lista.Add(per4);
+
+
+}
+
+<div id="DivEstilizado">
+    <table class="Clase">
+        <tr > <!-- tr es fila-->
+            <th>Indice</th><!-- th es columna-->
+            <th>Nombre</th>
+        </tr>
+        @foreach (Persona item in lista)
+        {
+            <tr>
+                <td>@lista.IndexOf(item)</td>
+                <!-- utilizando la propiedad como un get -->
+                <td>@item.Nombre</td>
+            </tr>
+        }
+    </table>
+
+</div>
