@@ -10,7 +10,11 @@ namespace Factory
     {
         static void Main(string[] args)
         {
+            Factoria factory = new Factoria();
             Perro per = Factoria.CriarDog("Grande");
+            Console.WriteLine("Creado perro.");
+
+            Console.ReadKey();
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    class Factoria : IPerreable
+    class Factoria
     {
         public static Perro CriarDog(string tamano)
         {
